@@ -1,6 +1,7 @@
 ---
 title: >-
-  もうコードは書かなくていい？Microsoft Learn Docs MCP Server × GitHub Copilot for Azure で Azure での開発を自然言語で完全自動化する
+  もうコードは書かなくていい？Microsoft Learn Docs MCP Server × GitHub Copilot for Azure で
+  Azure での開発を自然言語で完全自動化する
 tags:
   - Azure
   - AI
@@ -8,7 +9,7 @@ tags:
   - mslearn
   - githubcopilot
 private: false
-updated_at: "2025-07-07T06:46:13+09:00"
+updated_at: '2025-11-14T15:50:17+09:00'
 id: b33311d9baf1a835c27d
 organization_url_name: nri
 slide: false

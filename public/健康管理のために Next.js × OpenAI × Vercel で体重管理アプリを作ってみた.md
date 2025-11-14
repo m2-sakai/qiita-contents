@@ -7,7 +7,7 @@ tags:
   - Next.js
   - Vercel
 private: false
-updated_at: "2023-12-05T14:47:50+09:00"
+updated_at: '2025-11-14T15:50:18+09:00'
 id: 5590f00b273444012386
 organization_url_name: nri
 slide: false
