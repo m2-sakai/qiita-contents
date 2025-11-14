@@ -7,16 +7,17 @@ tags:
   - MCP
   - Bicep
 private: false
-updated_at: '2025-08-06T06:55:19+09:00'
+updated_at: "2025-08-06T06:55:19+09:00"
 id: 9da7976f5bc8dc24e1d1
 organization_url_name: nri
 slide: false
 ignorePublish: false
 ---
+
 # はじめに
 
 Azure 界隈の皆様、IaC 界隈の皆様、ついにきました。
-Azure Bicep の MCP サーバーがプレビュー版で公開されました！！！
+Azure Bicep の MCP サーバーがプレビュー版で公開されました！！
 
 昨今は様々な MCP サーバーが公開されていますが、IaC に関する MCP サーバーで言えば
 
