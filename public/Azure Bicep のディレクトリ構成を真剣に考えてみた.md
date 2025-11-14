@@ -7,7 +7,7 @@ tags:
   - AzureDevOps
   - Bicep
 private: false
-updated_at: "2024-07-31T00:48:41+09:00"
+updated_at: '2025-11-14T15:50:17+09:00'
 id: e67dc796401e2694c5f3
 organization_url_name: nri
 slide: false
