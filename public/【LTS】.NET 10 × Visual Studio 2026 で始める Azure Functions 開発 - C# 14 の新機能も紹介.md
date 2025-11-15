@@ -7,7 +7,7 @@ tags:
   - VisualStudio
   - AzureFunctions
 private: false
-updated_at: "2025-11-16T08:33:07+09:00"
+updated_at: '2025-11-16T08:44:30+09:00'
 id: e988886aa3854ffd492f
 organization_url_name: nri
 slide: false
