@@ -7,7 +7,7 @@ tags:
   - MCP
   - Bicep
 private: false
-updated_at: "2025-08-06T06:55:19+09:00"
+updated_at: '2025-11-14T15:57:02+09:00'
 id: 9da7976f5bc8dc24e1d1
 organization_url_name: nri
 slide: false
