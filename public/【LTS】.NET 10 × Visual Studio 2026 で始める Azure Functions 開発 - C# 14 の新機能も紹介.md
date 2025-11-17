@@ -180,15 +180,28 @@ public class Person
 
 ### Extension ブロック
 
-静的拡張メソッド、静的および インスタンス拡張プロパティのサポートが追加されました。
+拡張メンバーを定義するための新しい構文が追加され、拡張メソッドに加えて拡張プロパティや静的拡張メンバーを宣言できるようになりました。
 
 ```csharp
-extension StringExtensions for string
+public static class StringExtensions
 {
-    public static bool IsEmpty => string.IsNullOrEmpty(this);
-    public static int WordCount => this.Split(' ').Length;
+    // インスタンス拡張メンバー
+    extension(string source)
+    {
+        public bool IsEmpty => string.IsNullOrEmpty(source);
+        public int WordCount => source.Split(' ').Length;
+    }
+
+    // 静的拡張メンバー
+    extension(string)
+    {
+        public static string DefaultValue => string.Empty;
+        public static string Combine(string first, string second) => $"{first} {second}";
+    }
 }
 ```
+
+インスタンス拡張メンバーは `text.IsEmpty` のように呼び出し、静的拡張メンバーは `string.DefaultValue` のように呼び出せます。
 
 ### Null 条件代入
 
