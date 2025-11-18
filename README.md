@@ -20,17 +20,39 @@ qiita-contents/
 └── README.md
 ```
 
-## セットアップ
+## 技術スタック・トピック
+
+主に以下のトピックについて執筆しています：
+
+- **クラウド**: Azure, AWS
+- **IaC**: Azure Bicep, Terraform, AWS CDK, Pulumi
+- **言語**: C#, .NET, TypeScript, JavaScript, Java
+- **フレームワーク**: Next.js, Remix, .NET, Spring
+- **AI/ML**: OpenAI, Azure OpenAI, MCP (Model Context Protocol)
+- **認証**: Microsoft Entra ID, OAuth 2.0, Managed Identity
+- **開発ツール**: Visual Studio, VS Code, GitHub Copilot
+
+## 記事の閲覧
+
+すべての公開記事は [Qiita プロフィール](https://qiita.com/s_w_high) からご覧いただけます。
+
+## お問い合わせ
+
+記事に関する質問や誤りの指摘などは、[Qiita の各記事のコメント欄](https://qiita.com/s_w_high)までお願いします。
+
+## 執筆Tips（著者用）
+
+### セットアップ
 
 このリポジトリを使用して記事を執筆・管理するには、以下の手順でセットアップしてください。
 
-### 前提条件
+#### 前提条件
 
 - Node.js（v18 以上推奨）
 - npm または yarn
 - Git
 
-### インストール
+#### インストール
 
 ```bash
 # 依存関係のインストール
@@ -40,7 +62,7 @@ npm install
 npx qiita version
 ```
 
-### Qiita CLI の使い方
+#### Qiita CLI の使い方
 
 ```bash
 # 新しい記事の作成
@@ -58,7 +80,7 @@ npx qiita pull
 
 プレビューサーバーは `http://localhost:8888` で起動します（`qiita.config.json` で設定可能）。
 
-## 記事の執筆フロー
+### 記事の執筆フロー
 
 1. **下書き作成**: `npx qiita new` で新しい記事を作成（`work/` ディレクトリに配置）
 2. **ローカルプレビュー**: `npx qiita preview` でプレビューしながら執筆
@@ -68,7 +90,7 @@ npx qiita pull
 4. **記事公開**: 記事を `public/` ディレクトリに移動
 5. **Git 管理**: 変更をコミット・プッシュ
 
-## フロントマターの設定例
+### フロントマターの設定例
 
 ```yaml
 ---
@@ -85,27 +107,3 @@ slide: false
 ignorePublish: false
 ---
 ```
-
-## 技術スタック・トピック
-
-主に以下のトピックについて執筆しています：
-
-- **クラウド**: Azure, AWS
-- **IaC**: Azure Bicep, Terraform, AWS CDK, Pulumi
-- **言語**: C#, .NET, TypeScript, JavaScript, Java
-- **フレームワーク**: Next.js, Remix, .NET, Spring
-- **AI/ML**: OpenAI, Azure OpenAI, MCP (Model Context Protocol)
-- **認証**: Microsoft Entra ID, OAuth 2.0, Managed Identity
-- **開発ツール**: Visual Studio, VS Code, GitHub Copilot
-
-## 記事の閲覧
-
-すべての公開記事は [Qiita プロフィール](https://qiita.com/s_w_high) からご覧いただけます。
-
-## ライセンス
-
-各記事の著作権は著者に帰属します。
-
-## お問い合わせ
-
-記事に関する質問や誤りの指摘などは、[Qiita の各記事のコメント欄](https://qiita.com/s_w_high)までお願いします。
