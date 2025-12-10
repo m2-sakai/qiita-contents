@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/m2-sakai/qiita-contents#readme",
   "devDependencies": {
-    "@qiita/qiita-cli": "^1.6.2"
+    "@qiita/qiita-cli": "^1.7.0"
   }
 }
