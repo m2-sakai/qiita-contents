@@ -7,9 +7,9 @@ tags:
   - AI
   - MCP
   - mslearn
-  - githubcopilot
+  - GitHubCopilot
 private: false
-updated_at: '2025-11-14T15:50:17+09:00'
+updated_at: '2025-12-10T17:06:43+09:00'
 id: b33311d9baf1a835c27d
 organization_url_name: nri
 slide: false
